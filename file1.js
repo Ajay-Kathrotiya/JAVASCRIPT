@@ -134,6 +134,7 @@ console.log(drink);
 
 let fruits = ["mango", 'apples', 'graps', 1, 2, 3, "ak_patel", null, undefined];
 console.log(fruits);
+console.log(fruits.length);
 console.log(typeof fruits);
 console.log(Array.isArray(fruits));
 
