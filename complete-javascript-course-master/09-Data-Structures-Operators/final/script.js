@@ -23,7 +23,6 @@ const restaurant = {
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
-
   // ES6 enhanced object literals
   openingHours,
 
@@ -49,17 +48,7 @@ const restaurant = {
   },
 };
 
-
-// for of loop :
-
-const menu1 = [...restaurant.starterMenu,...restaurant.mainMenu];
-for(let x of menu1) console.log(x);
-
-
-
-
 ///////////////////////////////////////
-
 // String Methods Practice
 
 const flights =
@@ -927,9 +916,3 @@ console.log(i, j, k);
 const [p = 1, q = 1, r = 1] = [8, 9];
 console.log(p, q, r);
 */
-
-
-
-
-
-

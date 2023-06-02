@@ -6,13 +6,13 @@
 
 body{
     
-    background-color: rgb(115, 185, 196);
+    background-image: linear-gradient(to top, #0cb56a, #38a953, #4b9d3d, #589128, #618512);
 }
 
 h1{
     font-family: 'Anton', sans-serif;
     font-family: 'Rubik Storm', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 59, 42);
     text-align: center;
     font-size: 100px;
     margin-top: 180px;
@@ -29,7 +29,7 @@ h1{
 }
 
 h1:hover{
-    color: rgb(255, 251, 0);
+    color: rgb(77, 4, 7);
     border-radius: 10px;
     border: 2px gray;
 }
@@ -41,7 +41,7 @@ footer{
     justify-items: center;
     width: 100%;
     height: 50px;
-    background-color: rgb(2, 42, 70);
+    background-color: rgb(3, 65, 38);
 }
 
 p{
@@ -55,7 +55,7 @@ p{
 .nav{
     width: 100%;
     height: 75px;
-    background-color: rgb(6, 82, 136);
+    background-color: rgb(81, 169, 5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,10 +63,35 @@ p{
 }
 
 h2{
-    color: hsl(180, 100%, 100%);
+    color: hsl(306, 88%, 9%);
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+}
+
+button{
+    width: 500px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 800px;
+    background-color: rgb(19, 22, 87);
+    color: rgb(246, 243, 243);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 4px solid rgb(166, 76, 100);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: initial;
+}
+
+button:hover{
+    background-color: rgb(27, 27, 226);
+    border: 5px solid black;
+   
 }
